@@ -78,13 +78,11 @@
 
 /* #endregion */
 #sign-up-form {
-    /* background-color: rgb(255, 255, 255,0.5); */
     color: white;
     height: 50%;
     width: 100%;
-    /* margin: 10%; */
-    /* border-radius: 20px; */
-
     padding: 30px;
     font-size: 2em;
+    
+
 }

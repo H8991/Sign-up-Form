@@ -122,5 +122,16 @@ input {
     width: 40%;
     padding-left: 10px;
     font-size: .8em;
+    border-radius: 10px;
+    border: 0px;
 }
 
+input:focus {
+    border: 2px solid rgb(41, 184, 236);
+    outline: none;
+    box-shadow: black 10px 8px 20px;
+}
+
+#password1:invalid, #password2:invalid {
+    border: 5px solid red;
+}

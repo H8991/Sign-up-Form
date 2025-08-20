@@ -52,7 +52,7 @@
                         </div>
                         <div class="inputs">
                             <input type="email" id="email" name="email_address">
-                            <input type="tel" id="phone" name="phone_number">
+                            <input type="tel" id="phone" name="phone_number" pattern="[0-9]+">
                         </div>
                     </div>
                     
@@ -63,7 +63,7 @@
                         </div>
                         <div class="inputs">
                             <input type="password" name="password_1" id="password1" pattern="(?=.*[A-Z])" title="Must contain at least one uppercase character.">
-                            <input type="password" name="password_2" id="password2" pattern="(?=.*[A-Z])">
+                            <input type="password" name="password_2" id="password2" pattern="(?=.*[A-Z])" title="Must match previously entered password.">
                         </div>
                     </div>
 

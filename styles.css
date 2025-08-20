@@ -132,6 +132,6 @@ input:focus {
     box-shadow: black 10px 8px 20px;
 }
 
-#password1:invalid, #password2:invalid {
+input:invalid, #password1:invalid, #password2:invalid {
     border: 5px solid red;
 }
